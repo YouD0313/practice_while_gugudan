@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script>
+			// while 함수
+
+			// function gugudan(h, g) {
+			// 	const result1 = [];
+			// 	while (h < 10) {
+			// 		while (g < 10) {
+			// 			result1.push(h * g);
+			// 			g++;
+			// 		}
+			// 		h++;
+			// 		g = 1;
+			// 	}
+			// 	return result1;
+			// }
+			// const whilegugu = gugudan(1, 1);
+			// console.log(whilegugu);
+			// document.write(whilegugu);
+
+			// for 함수
+
+			// function gugu(i, j) {
+			// 	const result = [];
+			// 	for (let i = 1; i < 10; i++) {
+			// 		for (let j = 1; j < 10; j++) {
+			// 			// document.write(i + ' * ' + j + ' = ' + i * j);
+			// 			// document.write('<br>');
+			// 			result.push(i * j);
+			// 			console.log(i * j);
+			// 		}
+			// 	}
+			// 	return result;
+			// }
+			// const gugudan = gugu(1, 1);
+			// console.log(gugudan);
+
+			let i = 1;
+			let j = 1;
+			while (i < 10) {
+				const result = [];
+				while (j < 10) {
+					result.push(i * j);
+					document.write(i + ' * ' + j + ' = ' + result[result.length - 1]);
+					document.write('<br>');
+					j++;
+				}
+				i++;
+				j = 1;
+			}
+			// console.log(result);
+			// document.write(result);
+
+			// result.forEach((value, index) => {
+			// 	return value;
+			// });
+			// document.write(resultArr);
+
+			// result.map((value, index, array) => {
+			// 	console.log(value);
+			// 	for (let h = 1; h < 10; h++) {
+			// 		for (let g = 1; g < 10; g++) {
+			// 			document.write(h + ' * ' + g + ' = ');
+			// 			document.write('<br>');
+			// 		}
+			// 	}
+			// });
+			// document.write(value);
+		</script>
+	</head>
+	<body></body>
+</html>
